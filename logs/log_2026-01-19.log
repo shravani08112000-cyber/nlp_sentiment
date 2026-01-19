@@ -1,0 +1,499 @@
+2026-01-19 18:21:40,056 - INFO - Data Ingestion begining
+2026-01-19 18:21:40,657 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:40,875 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:40,884 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 18:21:41,106 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:41,324 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 18:21:42,207 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 18:21:42,452 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:42,672 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 18:21:42,893 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:43,110 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 18:21:43,410 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 18:21:43,637 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:43,941 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 18:21:44,155 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:44,376 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 18:21:44,664 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:21:44,966 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 18:21:45,055 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 18:21:49,323 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 18:25:24,404 - INFO - Data Ingestion begining
+2026-01-19 18:25:24,993 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:25,234 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:25,245 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 18:25:25,470 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:25,741 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 18:25:26,403 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 18:25:26,641 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:26,877 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 18:25:27,103 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:27,385 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 18:25:27,795 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 18:25:28,101 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:28,328 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 18:25:28,549 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:28,818 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 18:25:29,125 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:25:29,432 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 18:25:29,501 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 18:25:33,221 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 18:27:15,796 - INFO - Data Ingestion begining
+2026-01-19 18:27:16,436 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:16,751 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:16,763 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 18:27:16,981 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:17,195 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 18:27:18,184 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 18:27:18,421 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:18,639 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 18:27:18,901 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:19,115 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 18:27:19,428 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 18:27:19,727 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:20,027 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 18:27:20,245 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:20,540 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 18:27:20,848 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 18:27:21,154 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 18:27:21,232 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 18:27:24,511 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 18:27:38,752 - INFO - These are confusion metrics [[349  67]
+ [ 63 321]]
+2026-01-19 19:56:26,905 - INFO - Data Ingestion begining
+2026-01-19 19:56:27,778 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:28,010 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:28,022 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 19:56:28,344 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:28,573 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 19:56:29,537 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 19:56:29,791 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:30,020 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 19:56:30,251 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:30,479 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 19:56:30,481 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-01-19 19:56:31,205 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 19:56:31,428 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:31,657 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 19:56:31,891 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:32,127 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 19:56:32,394 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:56:32,618 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 19:56:32,757 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 19:56:40,107 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 19:58:27,727 - INFO - Data Ingestion begining
+2026-01-19 19:58:28,110 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:28,334 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:28,348 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 19:58:28,579 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:28,806 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 19:58:29,566 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 19:58:29,814 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:30,039 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 19:58:30,264 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:30,487 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 19:58:30,809 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 19:58:31,031 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:31,263 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 19:58:31,772 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:31,999 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 19:58:32,225 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 19:58:32,449 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 19:58:32,558 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 19:58:39,214 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 19:58:57,229 - INFO - These are confusion metrics [[349  67]
+ [ 63 321]]
+2026-01-19 20:04:37,564 - INFO - Data Ingestion begining
+2026-01-19 20:04:38,932 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:39,158 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:39,169 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 20:04:39,392 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:39,615 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 20:04:40,327 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 20:04:40,620 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:40,853 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 20:04:41,080 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:41,316 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 20:04:41,643 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 20:04:41,876 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:42,107 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 20:04:42,336 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:42,679 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 20:04:42,960 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:04:43,208 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 20:04:43,412 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 20:04:54,576 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 20:05:23,214 - INFO - These are confusion metrics [[349  67]
+ [ 63 321]]
+2026-01-19 20:09:54,537 - INFO - Data Ingestion begining
+2026-01-19 20:09:55,311 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:55,539 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:55,551 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 20:09:55,778 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:56,001 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 20:09:56,896 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 20:09:57,169 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:57,391 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 20:09:57,621 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:57,841 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 20:09:58,146 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 20:09:58,370 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:58,597 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 20:09:58,830 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:59,058 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 20:09:59,310 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:09:59,533 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 20:09:59,666 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 20:10:10,835 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 20:10:29,150 - INFO - These are confusion metrics [[164  40]
+ [ 27 169]]
+2026-01-19 20:12:11,852 - INFO - Data Ingestion begining
+2026-01-19 20:12:12,220 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:12:12,447 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:12:12,456 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 20:12:12,686 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:12:12,949 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 20:12:13,667 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 20:12:13,952 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:12:14,177 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 20:12:14,495 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 20:12:14,729 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:12:14,955 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 20:12:15,050 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 20:12:21,676 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 20:51:28,131 - INFO - Data Ingestion begining
+2026-01-19 20:51:29,018 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:29,244 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:29,256 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 20:51:29,488 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:29,738 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 20:51:30,472 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 20:51:30,729 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:30,955 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 20:51:31,190 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:31,422 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 20:51:31,828 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 20:51:32,075 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:32,308 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 20:51:32,532 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:32,757 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 20:51:33,031 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:51:33,257 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 20:51:33,385 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 20:51:41,320 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 20:52:49,401 - INFO - Data Ingestion begining
+2026-01-19 20:52:49,846 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:52:50,071 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:52:50,088 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 20:52:50,326 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:52:50,552 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 20:52:51,365 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 20:52:51,668 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:52:51,902 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 20:52:51,903 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-01-19 20:52:52,248 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 20:52:52,509 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 20:52:52,732 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 20:52:52,860 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 20:52:59,519 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 20:53:09,344 - INFO - These are confusion metrics [[161  43]
+ [ 36 160]]
+2026-01-19 21:22:10,223 - INFO - Data Ingestion begining
+2026-01-19 21:22:10,992 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:11,299 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:11,308 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 21:22:11,536 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:11,812 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:12,837 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 21:22:13,143 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:13,553 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 21:22:13,860 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:14,167 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:14,500 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:14,782 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:15,090 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:22:15,396 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:15,704 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:22:16,011 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:16,318 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:16,410 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 21:22:21,807 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 21:22:34,621 - INFO - These are confusion metrics [[349  67]
+ [ 63 321]]
+2026-01-19 21:22:43,724 - INFO - Data Ingestion begining
+2026-01-19 21:22:44,077 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:44,302 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:44,314 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 21:22:44,539 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:44,762 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:45,611 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 21:22:45,918 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:46,231 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 21:22:46,534 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:46,839 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:47,095 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:47,351 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:47,863 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:22:48,136 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:48,456 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:22:48,681 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:22:48,920 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 21:22:48,959 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 21:22:51,437 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 21:24:42,977 - INFO - Data Ingestion begining
+2026-01-19 21:24:43,586 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:43,888 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:43,896 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 21:24:44,193 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:44,501 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 21:24:45,423 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 21:24:45,730 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:48,496 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 21:24:48,801 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:49,115 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 21:24:49,415 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 21:24:49,723 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:50,031 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:24:50,338 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:50,565 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:24:50,815 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:24:51,054 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 21:24:51,127 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 21:24:54,059 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 21:25:06,461 - INFO - These are confusion metrics [[349  67]
+ [ 63 321]]
+2026-01-19 21:25:22,634 - INFO - Data Ingestion begining
+2026-01-19 21:25:22,910 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:23,137 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:23,147 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 21:25:23,374 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:23,601 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:24,540 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 21:25:24,847 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:25,154 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 21:25:25,463 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:25,770 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:26,077 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:26,385 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:26,580 - INFO - Data Ingestion begining
+2026-01-19 21:25:26,618 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:25:26,897 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:26,898 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:27,127 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:27,138 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/stanfordnlp/imdb/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/README.md "HTTP/1.1 200 OK"
+2026-01-19 21:25:27,362 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:27,615 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/imdb.py "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:27,920 - INFO - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/imdb/imdb.py "HTTP/1.1 200 OK"
+2026-01-19 21:25:28,167 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:28,398 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/revision/e6281661ce1c48d982bc483cf8a173c1bbeb5d31 "HTTP/1.1 200 OK"
+2026-01-19 21:25:28,636 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:28,943 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:29,251 - INFO - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=imdb "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:29,558 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:25:29,559 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:29,865 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/plain_text?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:25:29,988 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:30,276 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:30,327 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 21:25:31,302 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:31,606 - INFO - HTTP Request: GET https://huggingface.co/api/datasets/stanfordnlp/imdb/tree/e6281661ce1c48d982bc483cf8a173c1bbeb5d31?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-01-19 21:25:31,881 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 307 Temporary Redirect"
+2026-01-19 21:25:32,132 - INFO - HTTP Request: HEAD https://huggingface.co/datasets/stanfordnlp/imdb/resolve/e6281661ce1c48d982bc483cf8a173c1bbeb5d31/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-01-19 21:25:32,390 - INFO - DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+2026-01-19 21:25:34,485 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
+2026-01-19 21:25:36,694 - INFO - These are trin and test df's (25000, 2) and (25000, 2)
