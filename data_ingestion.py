@@ -1,8 +1,5 @@
 import pandas as pd
 from datasets import load_dataset
-from logger import get_logger
-
-logger = get_logger(__name__)
 
 
 
@@ -11,15 +8,15 @@ def load_imdb_data(sample_size=None):
     """Load IMDB Movie dataset for sentiment Analysis"""
 
     # Load Dataset
-    logger.info(f"Data Ingestion begining")
+    #logger.info(f"Data Ingestion begining")
     dataset = load_dataset('imdb')
-    logger.info(f"{dataset}")
+    #logger.info(f"{dataset}")
     
 
     # Convert to pandas datframe
     train_df = pd.DataFrame(dataset['train'])
     test_df = pd.DataFrame(dataset['test'])
-    logger.info(f"These are trin and test df's {train_df.shape} and {test_df.shape}")
+    #logger.info(f"These are trin and test df's {train_df.shape} and {test_df.shape}")
 
     # Map labels 0=Negative and 1=positive We create a column called sentiment and map
     train_df['sentiment'] = train_df['label'].map({0: 'negative', 1: 'positive'})
@@ -44,4 +41,4 @@ if __name__ == "__main__":
     train_df, test_df = load_imdb_data(sample_size=2000)
     print(train_df.head())
     print(test_df.head())
-    logger.info(f"Data {train_df.head()}")
+    #logger.info(f"Data {train_df.head()}")
