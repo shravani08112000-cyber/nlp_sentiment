@@ -12,6 +12,10 @@ import matplotlib.pyplot as plt
 import os
 import sys
 
+from logger import get_logger
+
+logger = get_logger(__name__)
+
 # Import custom modules
 from data_ingestion import load_imdb_data
 from preprocessing import TextPreprocessor
