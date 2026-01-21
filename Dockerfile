@@ -1,14 +1,21 @@
 FROM python:3.9-slim
+
 WORKDIR /app
-COPY requirements.txt
+
+COPY requirements.txt .
+
 RUN pip install --no-cache-dir -r requirements.txt
+
 COPY . .
+
 EXPOSE 8080
+
 ENV PORT=8080
+
 CMD streamlit run app.py \
---server.port=8080
---server.address=0.0.0.0 \
---server.headless=true \
---browser.serverAdress="0.0.0.0"
---browser.gatherUsageStats=false \
---server.enableCORS=false
+    --server.port=8080 \
+    --server.address=0.0.0.0 \
+    --server.headless=true \
+    --browser.serverAddress="0.0.0.0" \
+    --browser.gatherUsageStats=false \
+    --server.enableCORS=false
