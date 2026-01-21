@@ -13,9 +13,6 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from logger import get_logger
-
-logger = get_logger(__name__)
 
 class SentimentModel:
 
@@ -91,7 +88,6 @@ class SentimentModel:
         }
 
         cm = confusion_matrix(y_test,y_pred)
-        logger.info(f"These are confusion metrics {cm}")
 
         
 
