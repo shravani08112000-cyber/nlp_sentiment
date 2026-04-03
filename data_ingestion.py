@@ -38,7 +38,7 @@ def load_imdb_data(sample_size=None):
 
 
 if __name__ == "__main__":
-    train_df, test_df = load_imdb_data(sample_size=2000)
+    train_df, test_df = load_imdb_data(sample_size=1000)
     print(train_df.head())
     print(test_df.head())
     #logger.info(f"Data {train_df.head()}")
